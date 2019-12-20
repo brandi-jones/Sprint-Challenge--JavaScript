@@ -40,16 +40,16 @@ with no receiving object attached.
 
 3. What is closure?
 
--Closures control what is in scope of a function. It gives you access to an outside
+- Closures control what is in scope of a function. It gives you access to an outside
 functions scope from within an inner function.
 
 4. Describe the four rules of the 'this' keyword.
 
--When in the global scope, the value of "this" will be the window/console object.
--Implicit Binding- Whenever a preceding dot calls a function, the object before the dot is "this"
--New Binding - Whenever you use a constructor function, "this" refers to the specific instance of the
+- When in the global scope, the value of "this" will be the window/console object.
+- Implicit Binding- Whenever a preceding dot calls a function, the object before the dot is "this"
+- New Binding - Whenever you use a constructor function, "this" refers to the specific instance of the
 object that is created and returned by the constructor function.
--Explicit Binding - Whenever we use the call or apply method, "this" is explicitly definied.
+- Explicit Binding - Whenever we use the call or apply method, "this" is explicitly definied.
 Explicitly referring to another function, to allow for inheritance of objects.
 
 5. Why do we need super() in an extended class?
